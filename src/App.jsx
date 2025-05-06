@@ -1,5 +1,5 @@
 import SearchBox from './components/SearchBox/SearchBox';
-import ContactsForm from './components/ContactsForm/ContactsForm';
+import ContactForm from './components/ContactForm/ContactForm';
 // import { useSelector } from "react-redux";
 import "modern-normalize";
 import "./App.css";
@@ -11,7 +11,7 @@ const App = () => {
     <>
       <div className='phoneBookForm'>
         <h1 className='title'>Phonebook</h1>
-        <ContactsForm />
+        <ContactForm />
         <SearchBox />
         <ContactList />
       </div>

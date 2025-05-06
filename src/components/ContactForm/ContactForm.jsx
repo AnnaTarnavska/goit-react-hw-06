@@ -1,11 +1,11 @@
 import { ErrorMessage, Field, Form, Formik } from "formik";
-import s from "./ContactsForm.module.css";
+import s from "./ContactForm.module.css";
 import * as Yup from "yup";
 import { nanoid } from "nanoid";
 import { addContact } from '../../redux/contactsSlice';
 import { useDispatch } from "react-redux";
 
-const ContactsForm = () => {
+const ContactForm = () => {
     const dispatch = useDispatch();
 
     const initialValues = {
@@ -54,4 +54,4 @@ const ContactsForm = () => {
 
 };
 
-export default ContactsForm;
+export default ContactForm;
